@@ -1,0 +1,13 @@
+{application, etftp,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets
+                 ]},
+  {mod, { etftp_app, []}},
+  {env, []}
+ ]}.

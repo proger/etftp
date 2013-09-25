@@ -1,0 +1,6 @@
+syslinux-*.tar.gz
+deps/
+ebin/
+erl_crash.dump
+priv/
+vmling
