@@ -8,6 +8,7 @@ run:
 	erl -pa ebin -boot start_sasl -s inets -run etftp_app run ./priv
 
 files:
+	mkdir -p priv
 	cd priv; wget -qc http://storage.core-os.net/coreos/amd64-generic/72.0.0/coreos_production_pxe.vmlinuz
 	cd priv; wget -qc http://storage.core-os.net/coreos/amd64-generic/72.0.0/coreos_production_pxe_image.cpio.gz
 	wget -qc https://www.kernel.org/pub/linux/utils/boot/syslinux/syslinux-6.01.tar.gz
