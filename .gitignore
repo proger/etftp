@@ -4,4 +4,5 @@ ebin/
 erl_crash.dump
 priv/coreos*
 priv/pxelinux*
+priv/ldlinux*
 vmling
